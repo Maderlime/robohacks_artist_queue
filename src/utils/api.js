@@ -28,9 +28,13 @@ const deleteTodo = async (id) => {
   return response.json();
 };
 
-export default {
+const exportedObject = {
   getTodos,
   createTodo,
   deleteTodo,
   updateTodo,
+};
+
+export default {
+ exportedObject
 };
