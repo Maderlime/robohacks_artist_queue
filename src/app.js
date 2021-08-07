@@ -19,7 +19,6 @@ class App extends Component {
       .createTodo({
         id: uuid.v1(),
         completed: false,
-        coins: 0,
         text: text,
       })
       .then((todo) => {
@@ -38,7 +37,6 @@ class App extends Component {
       .updateTodo({
         id,
         text,
-        coins,
         completed,
       })
       .then((todo) => {
@@ -51,7 +49,6 @@ class App extends Component {
       .updateTodo({
         id,
         text,
-        coins,
         completed: !completed,
       })
       .then((todo) => {
