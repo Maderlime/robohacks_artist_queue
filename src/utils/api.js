@@ -35,6 +35,4 @@ const exportedObject = {
   updateTodo,
 };
 
-export default {
- exportedObject
-};
+export default exportedObject;
