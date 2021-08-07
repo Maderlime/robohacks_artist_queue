@@ -30,6 +30,7 @@ export default class Footer extends Component {
         className={classnames({ selected: filter === selectedFilter })}
         style={{ cursor: "pointer" }}
         onClick={() => onShow(filter)}
+        href="/#"
       >
         {title}
       </a>
